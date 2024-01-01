@@ -1,0 +1,67 @@
+.contact{
+    width: 100%;
+    background-color: #A24218;
+}
+.contact .contact-map{
+    height: 50svh;
+}
+.contact .Contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact .Contact-info h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.contact .Contact-info h2::after{
+    content: "";
+    display: block;
+    width: 4rem;
+    height: 5px;
+    background: #fff;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+.contact .Contact-info .contact-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.contact .Contact-info .contact-item span{
+    font-size: 1.1rem;
+    color: #ffffffb6;
+    margin-bottom: 10px;
+}
+.contact .Contact-info .contact-item span svg{
+    margin-right: 20px;
+    color: #fff;
+}
+.contact .Contact-info .contact-socail{
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.contact .Contact-info .contact-socail a{
+    color: #fff;
+    font-size: 30px;
+    color: #A24218;
+    padding: 15px;
+}
+.contact .Contact-info .contact-socail a:hover{
+    background-color: #A24218;
+    color: #fff;    
+}
+@media screen and (max-width: 1140px){
+    .contact{
+        padding-bottom: 50px;
+
+    }
+    .contact .contact-map{
+        padding-bottom: 30px;
+    }
+}

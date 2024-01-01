@@ -1,0 +1,42 @@
+.Portfolio h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.Portfolio h2::after{
+    content:"";
+    display: block;
+    width: 4rem;
+    height: 5px;
+    background: #A24218;
+    margin: auto;
+    border-radius: 8px;
+}
+.Portfolio .row{
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    padding: 1rem;
+    margin-bottom: 5rem;
+}
+.Portfolio .Portfolio-box1{
+    width: 30%;
+}
+.Portfolio .Portfolio-box1 :nth-child(2){
+    margin: 5px 0 ;
+}
+.Portfolio .Portfolio-img2{
+    width: 40%;
+}
+.Portfolio a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 8px 30px;
+    background-color: #A24218;
+    color: white;
+}
+.Portfolio a:hover{
+    background-color:transparent;
+    outline:1px solid #A24218;
+    color: #A24218;
+}
